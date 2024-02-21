@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1074235795813",
+    "project_id": "yummysnapproekt",
+    "storage_bucket": "yummysnapproekt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074235795813:android:6b594da6f2503624a6598c",
+        "android_client_info": {
+          "package_name": "com.example.yummysnap_proekt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Sdev4Qkp0rmtWqVFil-r8nRydocbpdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

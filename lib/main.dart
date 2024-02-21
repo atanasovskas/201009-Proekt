@@ -1,0 +1,33 @@
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'widgets/widget_tree.dart';
+
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+      apiKey: "AIzaSyA6Sdev4Qkp0rmtWqVFil-r8nRydocbpdA",
+      appId: "1:1074235795813:android:6b594da6f2503624a6598c",
+      messagingSenderId: "1074235795813",
+      projectId: "yummysnapproekt",
+    ),
+  );
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key ? key}) :super(key: key);
+
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.deepOrange,
+      ),
+      home: const WidgetTree(),
+    );
+  }
+}
